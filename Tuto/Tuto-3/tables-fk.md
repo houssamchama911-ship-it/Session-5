@@ -1,9 +1,8 @@
-Table : VILLE
+VILLE
 -------------
 id_ville (PK)
 nom_ville
-
-Table : AUTEUR
+AUTEUR
 --------------
 id_auteur (PK)
 nom_auteur
@@ -11,12 +10,12 @@ prenom_auteur
 email_auteur
 id_ville (FK)
 
-Table : CATEGORIE
+CATEGORIE
 -----------------
 id_categorie (PK)
 nom_categorie
 
-Table : ARTICLE
+ARTICLE
 ---------------
 id_article (PK)
 titre_article
