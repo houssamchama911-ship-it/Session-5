@@ -2,13 +2,14 @@ VILLE
 -------------
 id_ville (PK)
 nom_ville
+
 AUTEUR
 --------------
 id_auteur (PK)
 nom_auteur
 prenom_auteur
 email_auteur
-id_ville (FK)
+id_ville(FK)
 
 CATEGORIE
 -----------------
@@ -23,5 +24,5 @@ contenu_article
 date_publication
 statut_article
 image_article
-id_auteur (FK)
-id_categorie (FK)
+id_auteur(FK)
+id_categorie(FK)
